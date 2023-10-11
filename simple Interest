@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+int main(){
+float p=1500,r=1.4,t=3;
+
+printf("Enter the values of p \t r \t t\t ");
+scanf("%f \t%f \t%f",&p,&r,&t);
+	
+float Interest = ((p*r*t)/100);
+		
+		
+printf("%0.6f", Interest);
+	return 0;
+}
+
