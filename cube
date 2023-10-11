@@ -1,0 +1,14 @@
+//Area and Volume of a Cube
+#include <stdio.h>
+
+int main() {
+	int s=7;
+	printf("Enter the side of the cube:\n");
+	scanf("%d",&s);
+  
+	int sa,v;
+		sa=6*s*s;
+		v=s*s*s;
+	printf("The SA & V of cude with side %d is: %d, %d", s,sa,v);
+	return 0;
+}
