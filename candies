@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+int candies=35,cousins=10;
+
+printf("Enter the no of candies and cousins:\n");
+scanf("%d  %d",&candies,&cousins);
+
+if((candies%cousins)==0)
+{
+    printf("YES, %d candies can be equally distributed among %d",candies,cousins);
+    
+}
+else
+   { 
+        printf("NO,%d candies can be cannot be equally distributed among %d",candies,cousins);
+   } 
+	return 0;
+
+}
