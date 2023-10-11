@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+int main() {
+    int r,h;
+    float pi=3.14,v,cost;
+    printf("Enter the radius and height of the bottle:");
+    scanf("%d %d",&r,&h);
+    v=pi*r*r*h;
+    //cost of 1lt=Rs.40
+    cost=(v*40)/1000;
+    printf("The total cost of milk is: %0.2f",cost);
+    return 0;
+}
