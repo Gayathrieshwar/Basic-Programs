@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    float w[10];
+printf("Enter the wts of 10 students:\n");
+for(int i=0;i<10;i++){
+    scanf("%f",&w[i]);
+}
+float avg,sum=0;
+for(int i=0;i<10;i++){
+   sum=(sum+w[i]) ;
+   avg=sum/10;
+}
+printf("%f",avg);
+	return 0;
+
+}
