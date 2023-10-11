@@ -1,0 +1,23 @@
+int main(){
+    int n,i;
+    printf("Enter the count of no's to find Even or Odd:\n");
+    scanf("%d",&n);
+    
+    int arr[n];
+    
+    printf("Enter the nos:\n");
+    for(i=0;i<n;i++)
+    scanf("%d",&arr[i]);
+    
+    for(i=0;i<n;i++)
+    {
+        if(arr[i]%2==0)
+        {
+        printf("EVEN\n");
+     }
+     else
+     {
+         printf("ODD\n");
+     }
+    }
+	return 0;
